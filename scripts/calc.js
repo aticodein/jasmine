@@ -5,8 +5,7 @@ function addition (numOne, numTwo){
        alert ("Error!");
    }
 }   
-
-whatCanIDrink = function(age) {
+let whatCanIDrink = function(age) {
 	if (age < 0) {
 		return "Sorry. I can’t tell what drink because that age is incorrect!";
 	}
@@ -19,11 +18,11 @@ whatCanIDrink = function(age) {
 	else if (age < 21 && age >=18) {
 		return "Drink Beer";
 	}
-	else if (age < 130) {
+	else if (age < 150) {
 		return "Drink Whisky";
 	} 
 	else {
-		return "Sorry. I can’t tell what drink because that age is incorrect!"
+		return "Sorry. I can’t tell what drink because that age is incorrect!";
 	}
 };
 

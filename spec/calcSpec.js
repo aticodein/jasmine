@@ -60,7 +60,7 @@ describe("My whatCanIDrink function", function() {
         });
         
         it("should be unable to return a drink when called as whatCanIDrink(140)", function() {
-            var result = whatCanIDrink(140)
+            var result = whatCanIDrink(150)
             expect(result).toBe("Sorry. I can’t tell what drink because that age is incorrect!");
         });
         
